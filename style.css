@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+
+.sidebar{
+    /* background-color: azure; */
+    background-color: rgb(185, 179, 179);
+    /* width: 200px; */
+    font-family: 'Playfair Display', serif;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 54px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 16px;
+    padding: 17px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 10px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: red; */
+    height: 58vh;
+    width: 80vw;
+    margin: 55px auto;
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hello{
+    
+    font-size: 40px;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+.moreabout{
+    font-size: 20px;
+}
+.devpic img{
+    height: 58vh;
+}
+.buttons button{
+    padding: 4px;
+    border-radius: 19px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: cadetblue;
+    background-color: white;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sidebarGo{
+    transform: translate(-219px, 0px);
+    position: absolute;
+}
+.cross{
+    margin-left: 163px;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+@media (max-width: 1186px){
+
+/* .sidebar{
+    transform: translate(-219px, 0px);
+    position: absolute;
+} */
+
+}
+
